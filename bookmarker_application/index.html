@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Bookmarker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body onload="fetchBookmark()">
+    <div class="container clearfix">
+        <div class="header clearfix">
+            <h3 class="text-muted clearfix pull-left">Bookmarker</h3>
+            <div class="col-md-6 pull-right clearfix">
+                <div class="form-group col-md-9 pull-left clearfix">
+                        <input type="text" class="form-control pull-left" id="name" placeholder="Search your site name">
+                </div>
+                <button class="btn btn-primary" type="submit" onclick="search()">Search</button>
+            </div>
+            
+        </div>
+
+        <div class="row marketing">
+            <h4 id="sRH"></h4>
+           <div class="col-lg-12">
+                <div id="searchResult"></div>
+            </div>
+        </div>
+
+        <!-- <button class="btn btn-primary" data-toggle="modal" data-target="#searchResult">Search</button>
+        <div id="searchResult" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="buttom" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Search Result</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row marketing">
+                            <div class="col-lg-12">
+                                <div id="searchResult"></div>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="jumbotron">
+            <form action="#" method="get" id="bookmarkForm">
+                <h2>Bookmark Your F avorite Site</h2>
+                <div class="form-group">
+                    <label for="sitename">Site Name</label>
+                    <input type="text" class="form-control" id="siteName" required>
+                </div>
+                <div class="form-group">
+                    <label for="siteurl">Site Url</label>
+                    <input type="url " class="form-control" id="siteUrl" required>
+                </div>
+                <button class="btn btn-primary">Save Bookmark</button>
+            </form>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div id="bookmarkResult"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2018 Bookmarker Dorm J11, KIT</p>
+        </footer>
+    </div>
+
+
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</body>
+</html>
