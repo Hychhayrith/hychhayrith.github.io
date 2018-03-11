@@ -1,1 +1,0 @@
-# hychhayrith.github.io
