@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Problem tracker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Problem tracer <small>By Hy Chhayrith</small></h1>
+        <div class="jumbotron">
+            <form id="issueingForm">
+                <!-- <div class="form-control">   -->
+                    <label for="description">Description</label>
+                    <input type="text" name="desc" class="form-control" id="issueDesc" placeholder="Description">
+                <!-- </div> -->
+                
+                <label for="severity">Severity</label>
+                <select name="severity" id="issueSeverity" class="form-control">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+
+                <label for="assignTo">Assign To</label>
+                <input type="textarea" class="form-control" id="issueAssign" placeholder="Assign To">
+                <br>
+                <button class="btn btn-primary" type="submit">Add</button>
+            </form>
+        </div>
+
+        
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div id="issueItem"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="chance1.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+</body>
+
+</html>
