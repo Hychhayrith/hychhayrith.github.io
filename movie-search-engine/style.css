@@ -1,0 +1,16 @@
+body{
+    background: #000;
+}
+#search-result img, #search-result img{
+    width:100%;
+  }
+  
+  @media(min-width:960px){
+    #search-result .col-md-3 .well{
+      height: 390px;
+    }
+  
+    #search-result .col-md-3 img{
+      height:240px;
+    }
+  }
