@@ -1,0 +1,583 @@
+body{
+	margin:0;
+	text-align:left;
+	background-color:rgba(18, 71, 136, 0.98);;
+	background-image: url(../images/background.png);
+	background-repeat: repeat-x;
+	color:#061c37;
+	font: 14px Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:0;
+}
+
+*{
+	margin:0 auto 0 auto;
+	text-align:left;
+}
+
+h3{
+	font-size:16px;
+	padding:10px 0;
+	font-weight:bold;
+	color:#054dbc;
+}
+
+a:link{
+	color:#333;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#333;
+	text-decoration:none;
+}
+.info{
+	font-weight:200;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#333;
+	margin:30px;
+
+}
+.contact-us{
+	float:left;
+	color:#333;
+	display:block;
+	width:150px;
+	font-size:19px;
+	font-weight:bold;
+	padding-left:25px;
+}
+.contact-us-right-block{
+	float:left;
+	color:#333;
+	display:block;
+	
+	font-size:19px;
+	font-weight:400;
+	padding-left:10px;
+}
+
+h2{
+	margin-bottom:10px;
+}
+
+#container{
+	width:1335px;
+	padding:5px;
+}
+
+#header{
+	width:1335px;
+	height: 85px;
+}
+
+#header h1{
+	float:left;
+	color:#fff;
+	font-size:43px;
+	padding:20px 0 0 20px;
+}
+
+#header h2{
+	float:right;
+	color:#A9D1FA;
+	padding:50px 20px 0 0;
+}
+#header h1 span.blue-text{
+	color:#A9D1FA;
+}
+#header h2 span.white-text{
+	color:#fff;
+}
+#top-menu{
+	display:inline-block;
+	color:#fff;
+	margin-top:-5px;
+	padding:0;
+}
+#top-menu a:hover{
+	background-color:rgba(226, 177, 0, 0.96);
+}
+#top-menu a:active{
+	background-color:#9e0808;
+}
+	
+#top-menu .top-menu-left{
+	display:block;
+	float:left;
+	height:47px;
+	border-right:1px solid #fff;
+	width:677px;
+	margin-left:-20px;
+	margin-right:0px;
+	padding-top:7px;
+	padding-left:0px;
+}
+.top-menu-text-left{
+	font-weight:bold;
+	font-size:35px;
+	float:left;
+	color:#fff;
+	padding-left:160px;
+}
+#top-menu .top-menu-right{
+	display:block;
+	float:right;
+	background-color:rgba(226, 177, 0, 0.96);
+	height:47px;
+	margin-left:0px;
+	margin-right:-25px;
+	padding-top:7px;
+	width:694px;
+}
+.top-menu-text-right{
+	font-weight:bold;
+	font-size:35px;
+	float:right;
+	color:#fff;
+	padding-right:230px;
+}
+
+#launchDate{
+	float:right;
+	margin-top:20px;
+	padding-right:20px;
+	display:block;
+	height:54px;
+	
+}
+#launch-text{
+	color:#fff;
+	font-size:16px;
+}
+.ads{
+	display:block;
+	clear:both;
+	padding-top:30px;
+	width:500px;
+	height:100px;
+}
+.ads .ads-title{
+	text-align:center;
+}
+
+
+#button-control{
+	display:block;
+	width:600px;
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+}
+#button-control a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.download-torrent{
+	width:580px;
+	height:20px;
+	border:6px solid orange;
+	margin:10px 0px 0 -30px;
+	padding:10px 243px 10px 243px;
+	color:#333;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:10px;
+	background-color:#167ac6;
+}
+
+.post-movie{
+	display:block;
+	width:600px;
+	height:400px;
+	float:left;
+	margin-top:50px;
+	margin-left:30px;
+}
+.post-movie h1{
+	margin:0 10px 30px 0px;
+	text-align:center;
+	font-size:35px;
+}
+.movie-relate{
+	float:right;
+	display:block;
+	width:600px;
+	margin-top:50px;
+}
+.movie-relate h1{
+	text-align:center;
+	font-size:35px;
+}
+.movie-relate .post1 a .image-size{
+	width:230px;
+	height:230px;
+	margin-bottom:15px;
+	border:7px solid orange;
+	border-radius:5px;
+}
+.movie-relate .post1 .center-align{
+	width:230px;
+	text-align:center;
+}
+.movie-relate .post1{
+	width:230px;
+	height:230px;
+	display:block;
+	float:right;
+	margin-top:25px;
+	padding-right:40px;
+}
+.movie-relate .post a .image-size{
+	width:230px;
+	height:230px;
+	margin-bottom:15px;	
+	border:7px solid orange;
+	border-radius:5px;
+}
+.movie-relate .post .center-align{
+	width:230px;
+	text-align:center;
+}
+.movie-relate .post{
+	width:230px;
+	height:230px;
+	display:block;
+	float:right;
+
+	margin-top:105px;
+	padding-right:40px;
+}
+
+.fb-share{
+	margin-top:50px;
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+.fb-like{
+	margin-top:50px;
+	width:200px;
+	float:right;
+	margin-right:40px;
+}
+
+#menu {
+	display:block;
+	float:left;
+	width:960px;
+	height:54px;
+	clear:both;
+}
+#menu  #displayName{
+	color:#fff;
+	font-size:15px;
+	float:left;
+	margin-right:10px;
+	font-weight:bold;
+}
+
+#menu ul{
+	list-style:none;
+	width:960px;
+	margin-left:auto;
+	padding:0;
+	padding-top:18px;
+}
+
+#menu li{
+	list-style:none;
+	
+	display:inline;
+	padding:0;
+}
+
+#menu li a{
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	float:left;
+	font-size:15px;
+	padding:0 13px 0 13px;
+}
+
+#left-block{
+	display:inline-block;
+	float:left;
+	width:1200px;
+	height:auto;
+	clear:both;
+}
+
+#left-menu{
+	margin-top:15px;
+	margin-right:10px;
+	width:150px;
+	color:#fff;
+	display:block;
+	float:left;
+	border-radius: 10px;
+	background:#1c478e;
+	padding: 15px 20px 10px 10px;
+	clear:both;
+}
+
+input[type="text"], input[type="email"]{
+	margin-bottom:10px;
+}
+
+#left-menu input[type="submit"]{
+	background:#FF9;
+}
+#left-menu h3{
+	color:#fff;
+	font-size:16px;
+	padding:0;
+	padding-bottom: 8px;
+	border-bottom:2px solid #fff;
+}
+
+#left-menu ul{
+	list-style:none;
+	padding:0;
+}
+
+#left-menu li{
+	border-bottom:1px dashed #fff;
+	padding: 15px 0 8px 0;
+	list-style:none;
+}
+
+#left-menu li a,#left-menu a:visited{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bolder;
+	font-size:14px;
+}
+
+#content-manage{
+	display:block;
+	clear:inherit;
+	
+}
+
+#right-menu{
+	margin-left:5px;
+	margin-top: -2175px;
+	width:300px;
+	display:inline-block;
+	border-radius:4px;
+	float:right;
+	top:0;
+}
+#post-right-menu{
+	margin-left:5px;
+	margin-top: -869px;
+	width:300px;
+	display:inline-block;
+	border-radius:4px;
+	float:right;
+	top:0;
+}
+.share-h1{
+	margin-left:15px;
+	font-size:130%;
+	color:#fff;
+}
+.share-margin{
+	margin:10px 0 0 25px;
+	float:left;
+}
+.share-like-margin{
+	margin:10px 0 0 50px;
+	float:left;
+}
+
+.button-margin{
+	margin-left:25px;
+}
+
+
+#content{
+	display:block;
+	background:#fff;
+	width:1295px;
+	border-radius:4px;
+	margin-top:15px;
+	float:left;
+	margin-bottom:120px;
+	margin-left:10px;
+	padding:15px 15px 160px 15px;
+	border:0px solid #1c478e;
+}
+#about-us{
+	display:block;
+	background:#fff;
+	width:910px;
+	border-radius:4px;
+	margin-top:15px;
+	float:left;
+	padding:15px 15px 60px 15px;
+	border:0px solid #1c478e;
+}
+
+#content .post-content{
+	display:block;
+	width:1280px;
+	clear:both;
+	padding-left:20px;
+	
+	
+}
+
+#content .post-content .my-info{
+	margin-top:15px;
+	line-height:20px;
+	letter-spacing:1px;
+}
+
+#content .post-video{
+	padding:30px 0 0 0;
+}
+
+.video-size{
+	padding-left:25px;
+	width:755px;
+	height:520px;
+}
+
+.image-size{
+	width:280px;
+	height:280px;
+	border:7px solid orange;
+	border-radius:5px;
+}
+
+.post1{
+	width:320px;
+	height:280px;
+	display:block;
+	float:left;
+	margin-top:25px;
+	padding-left:0px;
+}
+
+
+#content .post-content .post{
+	width:320px;
+	height:280px;
+	display:block;
+	float:left;
+	margin-top:105px;
+	padding-left:0px;
+	
+}
+
+.post1 a:hover{
+	color:#167ac6;
+	text-decoration:underline;
+}
+.post a:hover{
+	color:#167ac6;
+	text-decoration:underline;
+}
+.post-content .post1 a img{
+	margin-bottom:14px;
+}
+.post-content .post a img{
+	margin-bottom:14px;
+}
+
+.center-align{
+	text-align:center;
+	color:#333;
+	width:280px;
+	font-size:18px;
+	font-weight:700;
+}
+
+.content-margin-left{
+	margin-left: 190px;
+}
+
+#content .float{
+	float:right;
+}
+
+.blue-developer{
+	width:170px;
+	float:right;
+}
+
+.blue-developer_left{
+	float:left;
+	width:170px;
+}
+
+.blue-developer h4{
+	font-size:15px;
+	padding:7px 0;
+	font-weight:bold;
+	color:#054dbc;
+}
+
+.blue-developer ul{
+	margin-bottom: 10px;
+	padding:0;
+}
+
+.blue-developer li{
+	list-style:none;
+}
+
+label{
+	display:inline-block;
+	width:150px;
+}
+
+.floatLeft{
+	text-align:left;
+}
+
+table,tr,td,th{
+	margin:0;
+}
+
+table{
+	padding:10px 0;
+}
+
+th{
+	text-align:center;
+}
+
+td{
+	padding:5px 20px;
+}
+
+
+
+div{
+	display:block;
+}
+
+table.dev-table tr,table.dev-table td,table.dev-table th{
+	font-size:110%;
+	border-bottom:1px dashed #000;
+}
+
+#displayName{
+	color:#fff;
+	font-size:15px;
+	float:right;
+	margin-right:10px;
+	font-weight:bold;
+}
+
