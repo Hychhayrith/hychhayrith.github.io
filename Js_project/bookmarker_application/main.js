@@ -1,4 +1,5 @@
 document.getElementById("bookmarkForm").addEventListener("submit", bookmarkForm);
+var a = 10;
 function bookmarkForm(e){
     //console.log("it work");
     var bookmark = {
